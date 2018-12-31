@@ -24,8 +24,8 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'Report Bug', link: 'https://trello.com/b/pxHkpEws/mps-simple-business-manager' },
-            { text: 'Buy Now', link: 'https://tecdiary.com/products/simple-business-manager' },
+            { text: 'Report Bug', link: 'https://trello.com/b/li7hv3qw/mps-modern-pos-solution' },
+            { text: 'Buy Now', link: 'https://tecdiary.com/products/modern-pos-solution' },
         ],
         sidebar: [
             {

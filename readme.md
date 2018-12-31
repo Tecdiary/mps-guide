@@ -93,7 +93,7 @@ We will add more reports as we receive feedback from you.
 
 ## Report Bug
 
-You can report issues, bugs and errors at our trello board by adding new can card. The trello board can be found at [https://trello.com/b/pxHkpEws/mps-modern-pos-solution](https://trello.com/b/pxHkpEws/mps-modern-pos-solution)
+You can report issues, bugs and errors at our trello board by adding new can card. The trello board can be found at [https://trello.com/b/li7hv3qw/mps-modern-pos-solution](https://trello.com/b/li7hv3qw/mps-modern-pos-solution)
 
 Please test the issue on live demo before reporting and add card to correct list with as much details as you can provide.
 
@@ -107,7 +107,7 @@ You can select super, admin or staff to login as and try our demo.
 
 ## Feature Request
 
-Please use the [trello board](https://trello.com/b/pxHkpEws/mps-modern-pos-solution) to request feature for the future updates.
+Please use the [trello board](https://trello.com/b/li7hv3qw/mps-modern-pos-solution) to request feature for the future updates.
 
 ## Support Request
 
