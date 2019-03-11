@@ -1,8 +1,8 @@
 {
-    "name": "sbm-guide",
+    "name": "mps-guide",
     "version": "1.0.0",
-    "description": "Simple Business Manager Documentation",
-    "repository": "https://github.com/Tecdiary/sbm-guide.git",
+    "description": "Modern Point of Sale Solution Documentation",
+    "repository": "https://github.com/Tecdiary/mps-guide.git",
     "author": "Mian Saleem <saleem@tecdiary.com>",
     "license": "MIT",
     "scripts": {
