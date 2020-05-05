@@ -1,15 +1,17 @@
 {
-    "name": "mps-guide",
-    "version": "1.0.0",
-    "description": "Modern Point of Sale Solution Documentation",
-    "repository": "https://github.com/Tecdiary/mps-guide.git",
-    "author": "Mian Saleem <saleem@tecdiary.com>",
-    "license": "MIT",
-    "scripts": {
-        "serve": "vuepress dev",
-        "build": "vuepress build && cp -a ./assets/ ./docs"
-    },
-    "devDependencies": {
-        "vuepress": "^0.14.2"
-    }
+  "name": "mps-guide",
+  "version": "1.0.0",
+  "description": "User Guide for Modern Point of Sale Solution",
+  "repository": "https://github.com/Tecdiary/mps-guide.git",
+  "author": "Mian Saleem <saleem@tecdiary.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vuepress dev v1",
+    "build": "vuepress build v1"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-nprogress": "^1.4.1",
+    "vuepress": "^1.4.0",
+    "vuepress-theme-reco": "^1.4.5"
+  }
 }
