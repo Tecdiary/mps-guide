@@ -1,2 +1,3 @@
 # MPS
-Modern Point of Sale Solutions - Bugs &amp; Errors
+
+### Modern Point of Sale Solution - Bugs &amp; Errors
