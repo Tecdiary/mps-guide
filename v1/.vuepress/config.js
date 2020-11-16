@@ -1,7 +1,7 @@
 module.exports = {
-  base: process.env.NODE_ENV === "production" ? "/mps/pages/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/MPS/" : "/",
   title: "MPS Guide",
-  dest: "../pages",
+  dest: "docs",
   description: "User Guide of Modern POS Solution",
   // locales: {
   //   "/": {
@@ -39,7 +39,7 @@ module.exports = {
     ],
     ["meta", { name: "msapplication-TileColor", content: "#3273dc" }],
   ],
-  docsDir: "docs",
+  docsDir: "v1",
   serviceWorker: true,
   extraWatchFiles: [".vuepress/nav/en.js", ".vuepress/nav/zh.js"],
   theme: "reco",

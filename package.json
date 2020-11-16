@@ -1,13 +1,12 @@
 {
   "name": "mps",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Documentation for MPS",
-  "main": "index.js",
   "scripts": {
     "dev": "npm run docs:dev",
     "build": "npm run docs:build",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vuepress dev v1",
+    "docs:build": "vuepress build v1"
   },
   "repository": {
     "type": "git",
