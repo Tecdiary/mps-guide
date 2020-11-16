@@ -1,0 +1,27 @@
+{
+  "name": "mps",
+  "version": "0.0.0",
+  "description": "Documentation for MPS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run docs:dev",
+    "build": "npm run docs:build",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tecdiary/MPS.git"
+  },
+  "author": "Mian Saleem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tecdiary/MPS/issues"
+  },
+  "homepage": "https://github.com/Tecdiary/MPS#readme",
+  "devDependencies": {
+    "@vuepress/plugin-nprogress": "^1.7.1",
+    "vuepress": "^1.7.1",
+    "vuepress-theme-reco": "^1.5.7"
+  }
+}
