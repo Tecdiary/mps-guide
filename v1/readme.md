@@ -1,65 +1,93 @@
-# Welcome to MPS Docs (WIP)
+# Welcome to MPS Guide (WIP)
 
 #### Modern POS Solution Documentation (version 1.0)
 
 ## About MPS
 
-**Modern POS Solution** (**MPS**) is all in once business solution developed by **Tecdiray IT Solutions**.
-
-MPS is developed using **vue** (front-end) and **laravel** (back-end). All licenses come with source code of back-end but the front-end source code is not included in regular license. If you need to modify the item's front-end for yourself or your clients then you will need to purchase developer or extended license.
+**Modern POS Solution** (**MPS**) is all in once business solution developed by **Tecdiray IT Solutions**. MPS is developed using **Vuejs** (front-end) and **Laravel** (back-end). All licenses come with source code of back-end but the front-end source code is not included in regular license. If you need to modify the item's front-end for yourself or your clients then you will need to purchase standard or extended license.
 
 This item is compatible with most of the tax systems including SST, VAT and state level taxes such as in _Canada_ & _India_.
 
-We have tried to make this documentation as comprehensive as we can and will keep update time to time with new details and FAQs. Please read the manual and if you can't find answer to
+We have tried to make this documentation as comprehensive as we can and will keep update time to time with new details and FAQs. Please read the manual and if you can't find answer of your questions, please ask at **[support portal](https://tecdiary.net/support)**
 
 #### Some of the main features of the Modern POS Solution are as following:
 
-- Sale module
-- Purchase module
-- Recurring Sale module
-- Items & Item Kits module
-- Expenses & Incomes module
-- Built-in Event Calendar
-- Built-in Accounting module
-- Multiple Taxes option
-- Multiple Locations option
-- Add Custom Fields as you need
-- Customers & Suppliers management
-- Payments module with online payment options
-  - Accept PayPAl payments
+- Sale
+- Purchase
+- Locations
+- Quotations
+- Gift Cards
+- Custom Fields
+- Shortcut Keys
+- Recurring Sale
+- Accounts and Asset Transfers
+- Return Order (Sale & Purchase)
+- Item Promotions
+- Event Calendar
+- Expenses & Incomes
+- Brands and Categories
+- Stock Adjustments & Transfers
+- Multiple Taxes per item and order
+- Items (Standard, Service, Recipe & Combo)
+- Item Units and Modifiers (add-ons)
+- Customers, Customer Groups & Suppliers
+- Restaurant features like Halls, Tables, Recipes and User Impersonating (easy login)
+- Payments module with offline and online payment options
+  - Accept PayPal payments
   - Accept Credit Card Payments with any of the following
     - Stripe
     - PayPal Pro
     - PayPal Rest
     - Authorize.net
+    - More will added in future (local gateway request should be made with developer account details of the gateway)
 - Custom Fields module to add extra fields to
-  - Suppliers
-  - Products
-  - Customers
-  - Income & Expenses
-  - Sales & Purchases
+  - Item
+  - Payment
+  - Location
+  - Asset Transfers
+  - Income & Expense
+  - Customer and Supplier
+  - Sale, Delivery & Purchase
+  - Quotation and Return Order
+  - Stock Adjustment and Transfer
   - Custom Field with sort order & following types
     - Text
-    - String
-    - Integer
-    - Datetime
-    - Boolean (select yes/no)
+    - Number
+    - Select
+    - Textarea
+    - Checkbox
+    - Radio
+    - Date
+    - Date Time
 - Enable/disable stock feature (Inventory)
 - Easily configure-able with Settings module
-- Easily update email templates from settings
-- Comes with 3 Sale/Purchase/Payment templates
-- Comes with 3 User Roles
+- Comes Configure-able User Roles
   1.  Super (super admin)
       - Can perform all actions
-  2.  Admin (administrator)
-      - Can't delete any data/records
-      - Can add/edit/view almost all data except settings & users
-  3.  Staff (sales staff)
-      - Can't edit any data/records
-      - Can't delete any data/records
-      - Can only view own added records for sales, purchases & payments
-      - Can add products, customers, suppliers, sales, purchases & payments
-- Progressive Web App, you can add it to home on your tablet/mobile devices and use as mobile application. All the get requests will be cached but you need to be online to make post/put/delete requests.
+  2.  Customer and Supplier Roles are reserved
+  3.  Add as many as you want and set permissions as you need
+- Reports
+  1. Alerts
+     - Due Payments
+     - Expense Approvals
+     - Low Quantity Items
+     - Expiring Quantity Items
+     - Coming Recurring Sales
+     - Customer and Supplier due limit
+  2. Account, customer and supplier transactions with opening and closing balance for the selected date range
+  3. Items Report
+  4. Sales Report
+  5. Purchase Report
+  6. Income Report
+  7. Expense Report
+  8. Stock Transfer Report
+  9. Stock Adjustment Report
+  10. User clock time logs
+  11. Activity logs
+  12. POS Register Report
+  13. You can request more reports at [https://github.com/Tecdiary/MPS/projects/1](https://github.com/Tecdiary/MPS/projects/1)
+
+* Progressive Web App, you can add it to home on your tablet/mobile devices and use as mobile application. All the get requests will be cached but you need to be online to make post/put/delete requests.
 
 ## Emails
 
