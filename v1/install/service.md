@@ -1,11 +1,11 @@
 # Installation Service
 
-#### We recommend that you perform installation service yourself.
+### We recommend that you perform installation as mentioned in this guide yourself.
 
-In case you want to request installation service, please make the payment for installation fee of [\$40](https://www.paypal.me/tecdiary/40usd) by PayPal. If you don't have PayPal account or need to pay by credit card, you can email to support@tecdiary.com with your First Name, Last Name, Email, Country, State, ZIP/Postal Code and Company name (company name is optional). We will send you payment request so that you can pay with credit/debit card.
+In case you want to request installation service, please [open support ticket](https://tecdiary.net/support/tickets/new) for installation request. It will cost you [\$40](https://tecdiary.net/support/tickets/new)
 
-Once payment sent, you can email your `License Key`/`Purchase Code`, `Server Details` (access to files and database) with login credentials. We will required 1 working day to complete the installation. Once done, you will replied with all the details to get you started with your new business application.
+Please don't forget to provide all the details such as `License Key`/`Purchase Code`, `Server Details` (access to files and database) with login credentials and desired path to install the item. We will required 1 working day to complete the installation. Once done, you will replied with all the details to get you started with your new business application.
 
-_In case we have any server configuration issue, we might need to work with your host/server admin to resolve it and this time doesn't count in the installation deadline._
+**_In case we have any server configuration issue, we might need to work with your host/server admin to resolve it and this time doesn't count in the installation deadline._**
 
-If you have any question or require further information, you can email to support@tecdiary.com
+If you have any question or require further information, you should ask support question at [support portal](https://tecdiary.net/support)

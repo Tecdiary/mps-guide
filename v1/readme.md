@@ -77,15 +77,16 @@ We have tried to make this documentation as comprehensive as we can and will kee
   2. Account, customer and supplier transactions with opening and closing balance for the selected date range
   3. Items Report
   4. Sales Report
-  5. Purchase Report
-  6. Income Report
-  7. Expense Report
-  8. Stock Transfer Report
-  9. Stock Adjustment Report
-  10. User clock time logs
-  11. Activity logs
-  12. POS Register Report
-  13. You can request more reports at [https://github.com/Tecdiary/MPS/projects/1](https://github.com/Tecdiary/MPS/projects/1)
+  5. Purchases Report
+  6. Payments Report
+  7. Incomes Report
+  8. Expenses Report
+  9. Stock Transfer Report
+  10. Stock Adjustment Report
+  11. User clock time logs
+  12. Activity logs
+  13. POS Register Report
+  14. You can request more reports at [https://github.com/Tecdiary/MPS/projects/1](https://github.com/Tecdiary/MPS/projects/1)
 
 * Progressive Web App, you can add it to home on your tablet/mobile devices and use as mobile application. All the get requests will be cached but you need to be online to make post/put/delete requests.
 
@@ -97,12 +98,12 @@ Emails are disabled on demo.
 
 System will send emails as following:
 
-1. **User Created** - User will be informed once created by super
-2. **Admin Reset User Password** - User will be informed once password reset by super
-3. **Sale Created** - Customer will be informed that sale has been created
-4. **Purchase Created** - Supplier will be informed that purchase has been created
-5. **Payment Created** - Customer/Supplier will be informed that payment has been created
-6. **Payment Received** - Customer will be informed that payment has been received
+1. **User Created** → User will be informed once created by super
+2. **Admin Reset User Password** → User will be informed once password reset by super
+3. **Sale Created** → Customer will be informed that sale has been created
+4. **Purchase Created** → Supplier will be informed that purchase has been created
+5. **Payment Created** → Customer/Supplier will be informed that payment has been created
+6. **Payment Received** → Customer will be informed that payment has been received
 
 ::: warning Require feedback
 We will add more email options as we receive feedback from you.
@@ -110,13 +111,14 @@ We will add more email options as we receive feedback from you.
 
 ## Available Reports
 
-We has added 5 reports. For more reports, we need your feedback. Once we have enough data and finalized the reports, we will add them in future updates.
+We has added few reports as mentioned above. For more reports, we need your feedback. Once we have enough data and finalized the reports, we will add them in future updates.
 
-1.  **General Report** displays total income, expense, sale and purchase amounts.
-2.  **Customer Report** displays customer related general report.
-3.  **Supplier Report** displays supplier related general report.
-4.  **User Report** displays user related general report.
-5.  **Tax Report** displays tax related data with amounts.
+1.  **Account Transactions Report** → Dccount statement with opening and closing balance.
+2.  **Customer Transactions Report** → Dustomer payment statement with opening and closing balance.
+3.  **Supplier Transactions Report** → Dupplier payment statement with opening and closing balance.
+4.  **App activity Logs** → Activity records for all application transactions.
+    <!-- 5.  **Profit Report** -->
+    <!-- 6.  **Tax Report** -->
 
 ::: warning Require feedback
 We will add more reports as we receive feedback from you.
@@ -124,26 +126,26 @@ We will add more reports as we receive feedback from you.
 
 ## Report Bug
 
-You can report issues, bugs and errors at our trello board by adding new can card. The trello board can be found at [https://trello.com/b/li7hv3qw/mps-modern-pos-solution](https://trello.com/b/li7hv3qw/mps-modern-pos-solution)
+You can report issues, bugs and errors by opening issue [https://github.com/Tecdiary/MPS/issues/new](https://github.com/Tecdiary/MPS/issues/new)
 
-Please test the issue on live demo before reporting and add card to correct list with as much details as you can provide.
+Please test the issue on live demo before reporting and provide details of the error/bug with steps to reproduce it.
 
 We will be working closely with all of you to resolve the issues/bugs/error as soon as possible. However for feature requests, these will be considered for next update except reports related request.
 
 ## Demo Details
 
-Link: [https://mps.tecdiary.com/](https://mps.tecdiary.com/)
+Link: [https://mps.tecdiary.net/](https://mps.tecdiary.net/)
 
-You can select super, admin or staff to login as and try our demo.
+You can select super or staff to login as and try our demo.
 
 ## Feature Request
 
-Please use the [trello board](https://trello.com/b/li7hv3qw/mps-modern-pos-solution) to request feature for the future updates.
+Please use the [repo projects](https://github.com/Tecdiary/MPS/projects/1) to request feature for the future updates.
 
 ## Support Request
 
-If you can't find answer here in docs, you are suggested to send email to support@tecdiary.com. Please be patient while accepting our response as it could take 2 - 5 days to reply your emails.
+If you can't find answer here in docs, you are suggested to ask question at support portal [https://tecdiary.net/support](https://tecdiary.net/support). Please be patient while accepting our response as it could take 1 - 2 working days to respond.
 
 ## Partnership/Bulk Licenses
 
-If you are interested in partnership or need bulk license discount, please reach to us by emailing to support@tecdiary.com
+If you are interested in partnership or need bulk license discount, please reach to us by emailing to saleem@tecdiary.com

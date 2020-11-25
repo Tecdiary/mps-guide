@@ -1,22 +1,23 @@
 # Credit
 
-![Vue Logo](/mps-guide/assets/img/vue-logo.png "Vue Logo")
-<img :src="$withBase('assets/img/vue-logo.png')" alt="Vue Logo">
+####
 
-### [Vue.js](https://vuejs.org/)
+![Laravel Logo](/MPS/assets/img/laravel-logo.png "Laravel Logo")
 
-#### The Progressive JavaScript Framework.
+### [Laravel](https://laravel.com/) → The PHP Framework For Web Artisans.
+
+---
 
 ####
 
-![Laravel Logo](/mps-guide/assets/img/laravel-logo.png "Laravel Logo")
+![Vue Logo](/MPS/assets/img/vue-logo.png "Vue Logo")
 
-### [Laravel](https://laravel.com/)
+### [Vue.js](https://vuejs.org/) → The Progressive JavaScript Framework.
 
-#### The PHP Framework For Web Artisans.
+---
 
-### [Bulma](https://bulma.io/)
+####
 
-#### Bulma is an open source CSS framework based on Flexbox.
+#### [View UI](https://www.iviewui.com/docs/introduce-en) → View UI (view-design), the original iView, is a set of open source UI component libraries based on Vue.js.
 
-### Thanks to all great organizations/people who are developing open source software.
+#### Thanks to all great organizations/people who are developing open source software.

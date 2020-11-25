@@ -10,22 +10,28 @@
 If you have purchased developer license, please run install dependencies before following these steps by running `composer install`
 :::
 
+---
+
+::: warning Set correct root path
+You need to set the root path for domain/subdomain to `public` directory inside MPS download/extracted files.
+:::
+
 You can access the installer by added `/install` at the end of your domain i.e,
 
--   `https:` // `yourdomain.com` / `install` for main domain installation
--   `https:` // `yourdomain.com` / `subfolder` / `install` for sub directory installation
--   `https:` // `subdomain.yourdomain.com` / `install` for sub domain directory installation
+- `https:` // `yourdomain.com` / `install` for main domain installation
+- `https:` // `yourdomain.com` / `subfolder` / `install` for sub directory installation
+- `https:` // `subdomain.yourdomain.com` / `install` for sub domain directory installation
 
 You will need to prepare these details (mentioned at installer page)
 
 1.  License details:
-    -   Purchased by (**username**/email)
-    -   Licence Key / Purchase code
+    - Purchased by (**username**/email)
+    - Licence Key / Purchase code
 2.  Database server details:
-    -   Database Hostname
-    -   Database Name
-    -   Database Username
-    -   Database Password `User must have all the privileges on the database`
+    - Database Hostname
+    - Database Name
+    - Database Username
+    - Database Password `User must have all the privileges on the database`
 
 ## Step 2: Licence Agreement
 
@@ -44,9 +50,9 @@ Please fill `username` and `license key`/`purchase code` and click next to verif
 Please fill the form with your database server details `hostname`, `database`, `username` and `password`.
 Please make sure that
 
--   database is empty
--   the `hostname` is correct
--   user has all the privileges on the database
+- database is empty
+- the `hostname` is correct
+- user has all the privileges on the database
 
 ## Step 6: Create User Account
 
