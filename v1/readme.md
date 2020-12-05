@@ -8,7 +8,7 @@
 
 This item is compatible with most of the tax systems including SST, VAT and state level taxes such as in _Canada_ & _India_.
 
-We have tried to make this documentation as comprehensive as we can and will keep update time to time with new details and FAQs. Please read the manual and if you can't find answer of your questions, please ask at **[support portal](https://tecdiary.net/support)**
+We have tried to make this documentation as comprehensive as we can and will keep update time to time with new details and FAQs. Please read the manual and if you can't find answer of your questions, please ask at **[support portal](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question)**
 
 #### Some of the main features of the Modern POS Solution are as following:
 
@@ -144,7 +144,7 @@ Please use the [repo projects](https://github.com/Tecdiary/MPS/projects/1) to re
 
 ## Support Request
 
-If you can't find answer here in docs, you are suggested to ask question at support portal [https://tecdiary.net/support](https://tecdiary.net/support). Please be patient while accepting our response as it could take 1 - 2 working days to respond.
+If you can't find answer here in docs, you are suggested to ask question at support portal [https://tecdiary.net/support/modern-point-of-sale-solution](https://tecdiary.net/support/modern-point-of-sale-solution). Please be patient while accepting our response as it could take 1 - 2 working days to respond.
 
 ## Partnership/Bulk Licenses
 

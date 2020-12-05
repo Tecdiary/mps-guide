@@ -94,8 +94,8 @@ function getSidebar() {
       children: ["/", "credit/"],
     },
     {
-      title: "Installation",
       collapsable: true,
+      title: "Installation",
       children: ["install/", "install/service"],
     },
     {
@@ -116,8 +116,8 @@ function getSidebar() {
       children: ["faqs/"],
     },
     {
-      title: "Developer Guide",
       collapsable: true,
+      title: "Developer Guide",
       children: ["developer-guide/"],
     },
   ];

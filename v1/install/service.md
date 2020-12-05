@@ -8,4 +8,4 @@ Please don't forget to provide all the details such as `License Key`/`Purchase C
 
 **_In case we have any server configuration issue, we might need to work with your host/server admin to resolve it and this time doesn't count in the installation deadline._**
 
-If you have any question or require further information, you should ask support question at [support portal](https://tecdiary.net/support)
+If you have any question or require further information, you should ask support question at [support portal](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question)

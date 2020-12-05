@@ -1,10 +1,23 @@
 ::-webkit-scrollbar {
-  display: none;
+  all: unset !important;
+  width: 6px !important;
+  height: 6px !important;
+}
+.sidebar::-webkit-scrollbar {
+  all: unset !important;
+  width: 3px !important;
+  height: 3px !important;
 }
 p, ul, ol {
   margin-top: 0;
   margin-bottom: 10px
   line-height: 1.7 !important;
+}
+.page {
+  padding-bottom: 0;
+}
+.content__default {
+  min-height: calc(100vh - 220px);
 }
 .content__default:not(.custom), .page-edit, .page-nav {
   max-width: 100% !important;
@@ -115,8 +128,14 @@ h2 {
 // }
 
 .suggestions {
+  overflow-y: scroll;
+  top: 100% !important;
+  max-height: calc(100vh - 70px);
   border-color: var(--border-color) !important;
   .page-title {
     display: block !important;
   }
+}
+.color-picker .color-button .iconfont {
+  font-size: 1rem;
 }

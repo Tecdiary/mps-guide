@@ -72,14 +72,14 @@ MPS has option to add User Roles and set Permissions as you need.
 
 1.  Super (super admin)
     - Can perform all actions
-2.  Add User Role
-    - You can set Permissions for the role
-3.  Customer (site customer)
+2.  Customer (site customer)
     - Can update customer company details
     - Can view own sale, recurring sale and payments
-4.  Supplier (site supplier)
+3.  Supplier (site supplier)
     - Can update supplier company details
     - Can view own purchases and payments
+4.  Add User Role
+    - You can set Permissions for the role
 
 ### Which one is the default user role?
 
