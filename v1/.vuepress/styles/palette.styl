@@ -1,3 +1,16 @@
+$textColor = #2c3e50
+$arrowBgColor = #ccc
+$accentColor = #2d8cf0
+$borderColor = #eaecef
+$codeBgColor = #282c34
+$badgeTipColor = #42b983
+$badgeErrorColor = #DA5961
+$badgeWarningColor = darken(#ffe564, 35%)
+
+.dark:root {
+  --border-color: darken(#363e4f, 60%) !important;
+  --background-color: darken(#363e4f, 50%) !important;
+}
 ::-webkit-scrollbar {
   all: unset !important;
   width: 6px !important;
@@ -7,6 +20,11 @@
   all: unset !important;
   width: 3px !important;
   height: 3px !important;
+  background: var(--border-color) !important;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 3px !important;
+  // background: #2d8cf0 !important;
 }
 p, ul, ol {
   margin-top: 0;
@@ -84,8 +102,8 @@ p, ul, ol {
 }
 a.sidebar-link.active {
   border-right: 0;
-  border-left: 3px solid #3eaf7c;
   background: var(--default-color-2);
+  border-left: 3px solid $accentColor;
 }
 .custom-block {
   color: #ffffff;
@@ -109,10 +127,12 @@ a.sidebar-link.active {
     margin-bottom: 0;
   }
 }
+.mode-options .color-mode-options li {
+  border-color: $accentColor !important;
+}
 h2 {
-  padding-left: 0 !important;
   padding-bottom: 0.25rem;
-  // border-bottom: 1px solid #3eaf7c;
+  padding-left: 0 !important;
   border-bottom: 1px solid var(--code-color);
   &::before {
     display: none !important;
@@ -134,6 +154,14 @@ h2 {
   border-color: var(--border-color) !important;
   .page-title {
     display: block !important;
+  }
+  &::-webkit-scrollbar {
+    all: unset !important;
+    width: 3px !important;
+    height: 3px !important;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3px !important;
   }
 }
 .color-picker .color-button .iconfont {
