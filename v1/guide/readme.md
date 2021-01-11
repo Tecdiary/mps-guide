@@ -28,4 +28,4 @@ SMA will automatically logs all the activity in your app for super-admins only.
 
 ## Table Design
 
-![Table Image](/sbm-guide/assets/img/table-design.png 'Table Design')
+<img :src="$withBase('/assets/img/table-design.png')" alt="Table Design">
