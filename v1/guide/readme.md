@@ -4,7 +4,7 @@
 
 ## General
 
-Modern POS Solution is designed & developed to suit most of the business needs. We have tried to keep design and layout simple so that that everyone can easily get going. The design is responsive and we have added the progressive web app feature to it. MPS look quite fine on all screen sizes.
+Modern POS Solution is designed & developed to for small to enterprise business needs. We have tried to keep design and layout simple so that everyone can easily get going. The design is responsive and we have added the progressive web app feature to it. MPS look quite fine on all screen sizes.
 
 You can have the option to use sidebar as collapsed (mini sidebar, menu will popup on right).
 
@@ -12,7 +12,7 @@ All the tables are search-able & sort-able with responsive styles, on the small 
 
 ## Dashboard
 
-Dashboard has week, monthly and yearly charts with date and year selection.
+Dashboard has 7 days, monthly and yearly charts with month and year selection.
 
 We would like to listen your feedback to improve and make dashboard more informative.
 
@@ -22,8 +22,14 @@ Calendar UI is simple & easy, you can add events and they will mark a dot on cal
 
 ## Activity Logs
 
-MPS will automatically logs all the activity in your app and you can view it under reports. The activity table is search-able.
+MPS will automatically logs all the activity in your app and you can view it under reports. The activity table is search-able (log name & description).
 
-## Point of Sale (POS) Screen Design
+## Design
+
+### Application Screen Sections
+
+<img :src="$withBase('/assets/img/app-design.png')" alt="App Design" >
+
+### Point of Sale (POS) Screen Design
 
 <img :src="$withBase('/assets/img/pos-design.png')" alt="POS Design" >
