@@ -1,15 +1,22 @@
 $textColor = #2c3e50
 $arrowBgColor = #ccc
 $accentColor = #2d8cf0
-$borderColor = #eaecef
+$borderColor = #F3F4F6
 $codeBgColor = #282c34
-$badgeTipColor = #42b983
-$badgeErrorColor = #DA5961
-$badgeWarningColor = darken(#ffe564, 35%)
+$badgeTipColor = #059669
+$badgeErrorColor = #DC2626
+$badgeWarningColor = #D97706
+
+:root {
+  --border-color: #F3F4F6 !important;
+  --background-color: #FFFFFF !important;
+}
 
 .dark:root {
-  --border-color: darken(#363e4f, 60%) !important;
-  --background-color: darken(#363e4f, 50%) !important;
+  --border-color: #111827 !important;
+  --background-color: #1F2937 !important;
+  // --border-color: darken(#363e4f, 60%) !important;
+  // --background-color: darken(#363e4f, 50%) !important;
 }
 ::-webkit-scrollbar {
   all: unset !important;
@@ -33,6 +40,9 @@ p, ul, ol {
 }
 .page {
   padding-bottom: 0;
+}
+.search-box input {
+  background: var(--background-color) !important;
 }
 .content__default {
   min-height: calc(100vh - 220px);
@@ -90,7 +100,11 @@ p, ul, ol {
 }
 .navbar {
   box-shadow: none;
+  background: var(--border-color);
   border-bottom: 1px solid var(--border-color);
+  .links {
+    background-color: var(--border-color);
+  }
 }
 .content__default:not(.custom) > h1,
 .content__default:not(.custom) > h2,
@@ -100,6 +114,9 @@ p, ul, ol {
 .content__default:not(.custom) > h6 {
   padding-top: 2.5rem !important;
 }
+// .content__default:not(.custom) img {
+//     max-width: 170px !important;
+// }
 a.sidebar-link.active {
   border-right: 0;
   background: var(--default-color-2);
@@ -111,12 +128,12 @@ a.sidebar-link.active {
   padding: 10px 20px !important;
   border: 1px solid var(--background-color) !important;
   &.warning {
-    border-color: #fb9b5f !important;
-    background-color: #fb9b5f !important;
+    border-color: $badgeWarningColor !important;
+    background-color: $badgeWarningColor !important;
   }
   &.tip {
-    border-color: #67cc86 !important;
-    background-color: #67cc86 !important;
+    border-color: $badgeTipColor !important;
+    background-color: $badgeTipColor !important;
   }
   .custom-block-title {
     font-size: 1.2rem;
@@ -166,4 +183,19 @@ h2 {
 }
 .color-picker .color-button .iconfont {
   font-size: 1rem;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.logo-image {
+  margin: 1rem;
+  max-width: 170px !important;
+  max-height: 150px !important;
+}
+div[class*="language-"] {
+  background: var(--border-color) !important;
 }

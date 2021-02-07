@@ -4,6 +4,10 @@
 
 [[toc]]
 
+::: warning Installation Difficulty?
+Laravel installation might be tricky for some users. It will be fine as long as you know how to set domain/subdomain root path aor have performed Laravel installation before.
+:::
+
 ## Step 1: Preparation
 
 ::: warning Developer License?
@@ -63,6 +67,10 @@ Please fill the form to create super user account.
 We are almost done, it's time to finalize the installation. If you need some demo data, you can generate from this page before pressing the **Finalize** button.
 
 **You must press the `Finalize` installation button to complete the installation.**
+
+::: warning PDF Attachment
+MPS used `rialto-php/puphpeteer` to generate pdf files, please install npn packages by running `npm install` or install `npm install @nesk/puphpeteer` in your main directory.
+:::
 
 ::: tip Can I start again?
 Yes, if there is any issue on any step and you can't pass then you can cancel and start over again with new database or settings.
