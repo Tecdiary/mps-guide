@@ -26,4 +26,4 @@ MPS will automatically logs all the activity in your app and you can view it und
 
 ## Point of Sale (POS) Screen Design
 
-![POS Image](/sbm-guide/assets/img/pos-design.png "POS Design")
+<img :src="$withBase('/assets/img/pos-design.png')" alt="POS Design" >
