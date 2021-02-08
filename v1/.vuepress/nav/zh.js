@@ -6,7 +6,7 @@ module.exports = [
   },
   {
     text: "Request Feature",
-    link: "https://github.com/Tecdiary/MPS/projects/1",
+    link: "https://github.com/Tecdiary/MPS/discussions/new?category=ideas",
   },
   {
     text: "Buy Now",

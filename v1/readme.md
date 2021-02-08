@@ -86,7 +86,7 @@ We have tried to make this documentation as comprehensive as we can and will kee
   11. User clock time logs
   12. Activity logs
   13. POS Register Report
-  14. You can request more reports at [https://github.com/Tecdiary/MPS/projects/1](https://github.com/Tecdiary/MPS/projects/1)
+  14. You can request more reports at [https://github.com/Tecdiary/MPS/discussions/new?category=ideas](https://github.com/Tecdiary/MPS/discussions/new?category=ideas)
 
 * Progressive Web App, you can add it to home on your tablet/mobile devices and use as mobile application. All the get requests will be cached but you need to be online to make post/put/delete requests.
 
@@ -126,7 +126,7 @@ We will add more reports as we receive feedback from you.
 
 ## Report Bug
 
-You can report issues, bugs and errors by opening issue [https://github.com/Tecdiary/MPS/issues/new](https://github.com/Tecdiary/MPS/issues/new)
+You can report issues, bugs and errors by opening issue [https://github.com/Tecdiary/MPS/issues/new?labels=bug](https://github.com/Tecdiary/MPS/issues/new?labels=bug)
 
 Please test the issue on live demo before reporting and provide details of the error/bug with steps to reproduce it.
 
@@ -140,7 +140,7 @@ You can select super or staff to login as and try our demo.
 
 ## Feature Request
 
-Please use the [repo projects](https://github.com/Tecdiary/MPS/projects/1) to request feature for the future updates.
+Please use the [repo discussions](https://github.com/Tecdiary/MPS/discussions/new?category=ideas) to request feature for the future updates.
 
 ## Support Request
 

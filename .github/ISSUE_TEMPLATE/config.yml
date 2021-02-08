@@ -7,5 +7,5 @@ contact_links:
     url: https://github.com/Tecdiary/MPS/discussions/new?category=ideas
     about: Share ideas for new features
   - name: Bug Report
-    url: https://github.com/Tecdiary/MPS/issues/new?labels=bug
+    url: https://github.com/Tecdiary/MPS/issues/new?labels=bug?labels=bug
     about: Report a reproducable bug

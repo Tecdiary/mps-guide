@@ -118,7 +118,7 @@ function getSidebar() {
     {
       collapsable: true,
       title: "Developer Guide",
-      children: ["developer-guide/"],
+      children: ["developer-guide/", "developer-guide/mps"],
     },
   ];
 }
