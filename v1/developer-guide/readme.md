@@ -68,4 +68,4 @@ Yes, we do provide customization/modification. We charge `$50/hours` and availab
 
 ### I can't find answer in docs?
 
-If you can't find the answer here, you can email to support@tecdiary.com but please don't ask modification related questions as we might not be able to help you with modifications as mentioned above.
+If you can't find answer here in docs, you are suggested to ask question at support portal [https://tecdiary.net/support/modern-point-of-sale-solution](https://tecdiary.net/support/modern-point-of-sale-solution). Please be patient while accepting our response as it could take 1 - 2 working days to respond.
