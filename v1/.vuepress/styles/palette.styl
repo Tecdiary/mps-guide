@@ -9,19 +9,22 @@ $badgeWarningColor = #D97706
 
 :root {
   --border-color: #F3F4F6 !important;
+  --pre-bg-color: #FAFAFA !important;
   --background-color: #FFFFFF !important;
 }
 
 .dark:root {
   --border-color: #111827 !important;
+  --pre-bg-color: #18181B !important;
   --background-color: #1F2937 !important;
   // --border-color: darken(#363e4f, 60%) !important;
   // --background-color: darken(#363e4f, 50%) !important;
 }
 ::-webkit-scrollbar {
   all: unset !important;
-  width: 6px !important;
-  height: 6px !important;
+  width: 8px !important;
+  height: 8px !important;
+  background: var(--border-color) !important;
 }
 .sidebar::-webkit-scrollbar {
   all: unset !important;
@@ -30,7 +33,7 @@ $badgeWarningColor = #D97706
   background: var(--border-color) !important;
 }
 ::-webkit-scrollbar-thumb {
-  border-radius: 3px !important;
+  // border-radius: 4px !important;
   // background: #2d8cf0 !important;
 }
 p, ul, ol {
@@ -197,5 +200,6 @@ h2 {
   max-height: 150px !important;
 }
 div[class*="language-"] {
-  background: var(--border-color) !important;
+  background: var(--pre-bg-color) !important;
+  background-color: var(--pre-bg-color) !important;
 }

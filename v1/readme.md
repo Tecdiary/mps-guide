@@ -12,14 +12,14 @@ We have tried to make this documentation as comprehensive as we can and will kee
 
 #### Some of the main features of the Modern POS Solution are as following:
 
-- Sale
-- Purchase
+- Sales
+- Purchases
 - Locations
 - Quotations
 - Gift Cards
 - Custom Fields
 - Shortcut Keys
-- Recurring Sale
+- Recurring Sales
 - Accounts and Asset Transfers
 - Return Order (Sale & Purchase)
 - Item Promotions
