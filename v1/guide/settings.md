@@ -1,4 +1,4 @@
-# Accounts & Transfers
+# Settings
 
 [[toc]]
 

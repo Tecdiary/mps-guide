@@ -1,4 +1,4 @@
-# Invoices & Purchases
+# Sales & Deliveries
 
 [[toc]]
 
@@ -53,13 +53,13 @@ Recurring invoices are the invoice that will be automatically generated after se
 1.  Start Date
 2.  Create before - number of day to generate invoice
 3.  Repeat - repeat period for the invoice
-    -   daily
-    -   weekly
-    -   monthly
-    -   quarterly
-    -   semiannually
-    -   annually
-    -   biennially
+    - daily
+    - weekly
+    - monthly
+    - quarterly
+    - semiannually
+    - annually
+    - biennially
 4.  Reference
 5.  Customer
 6.  Order Taxes

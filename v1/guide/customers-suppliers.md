@@ -1,4 +1,4 @@
-# Products, Customers & Vendors
+# Customers & Suppliers
 
 [[toc]]
 

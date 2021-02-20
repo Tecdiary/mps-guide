@@ -20,6 +20,14 @@ We would like to listen your feedback to improve and make dashboard more informa
 
 Calendar UI is simple & easy, you can add events and they will mark a dot on calendar. User will get email notification before 2 days and 1 day of the event.
 
+## App Alerts
+
+Alerts (bell icon on top bar) will display alerts for app notifications, expenses to approve, payments, low stock, expiring soon stock, coming recurring sales, customer & supplier due limit.
+
+## Gift Cards
+
+MPS comes with gift card feature, you can add and accept payments by gift cards. It's keep log for the gift cards.
+
 ## Activity Logs
 
 MPS will automatically logs all the activity in your app and you can view it under reports. The activity table is search-able (log name & description).
@@ -33,3 +41,7 @@ MPS will automatically logs all the activity in your app and you can view it und
 ### Point of Sale (POS) Screen Design
 
 <img :src="$withBase('/assets/img/pos-design.png')" alt="POS Design" >
+
+## Auto Update
+
+MPS comes with auto update functionality, please enable it in system settings.
