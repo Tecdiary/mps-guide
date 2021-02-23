@@ -2,31 +2,25 @@
 
 [[toc]]
 
-## Accounts
+### POS Highlights
 
-Accounting is the systematic and comprehensive recording of financial transactions pertaining to a business. Accounting also refers to the process of summarizing, analyzing and reporting these transactions to oversight agencies, regulators and tax collection entities. The financial statements that summarize a large company's operations, financial position and cash flows over a particular period are a concise summary of hundreds of thousands of financial transactions it may have entered into over this period.
+**POS Screen has many options to make the sales procedure a breeze.**
 
-MPS (Modern POS Solution) keeps record of each transaction of your accounts.
+The main features are as follows
 
-The account has following fields
+1. Register details (all the pos sales)
+2. Categories (side bar and cascade)
+3. Multiple open order and switch with a click
+4. Shortcut keys to easy manage/perform any task
+5. Grid item can be search regardless of the selected category
+6. Order items sections where any item name can be clicked to open edit modal
+7. POS action buttons with order info/form, delete current order, print order and bill and payment button to finalize the sale
+8. You can accept payment by any enabled method. Amount buttons can be chosen in the settings
+9. POS has option to send print using browser or POS Print Server (if enable Print using POS Print Server)
+10. If you have added the sale, the button will be added to the actions to print previous sale, otherwise you can go to list sale to print receipt for any sale
+11. Enable restaurant feature to get the hall, tables to open orders. If the table has already open order pos will display it so that there is no way yo open multiple orders for a single table
+12. Enable impersonation to easy switch users with QRCode. The user dropdown will display the impersonated user and the logged in user details
 
-1.  **Name** - Name of the account (will be display on invoice if offline payment)
-2.  **Type** - Type of the account
-3.  **Reference** - Account number, Payment email or use it as you like (will be display on invoice if offline payment)
-4.  **Opening balance** - the opening balance of the account
-5.  **Details** - Any further details of the account (will be display on invoice if offline payment)
-6.  **Show in offline payments** - If you want to accept offline payment for this account.
-7.  Custom fields - only shown in edit form
+### POS Design
 
-**_You can't save custom fields data while adding the account_**, however it can be saved by editing the account. Edit form will show all the custom fields added by you for accounts.
-
-## Transfers
-
-The transfer of the asset/money from one account to another account.
-
-Transfer form is quote simple with the following fields
-
-1.  From account - select from account, you are transferring from
-2.  To account - select to account, you are transferring to
-3.  Amount - Transfer amount
-4.  Details - details of the transfer
+<img :src="$withBase('/assets/img/pos-design.png')" alt="POS Design" >

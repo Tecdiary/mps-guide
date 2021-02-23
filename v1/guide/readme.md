@@ -8,11 +8,11 @@ Modern POS Solution is designed & developed to for small to enterprise business 
 
 You can have the option to use sidebar as collapsed (mini sidebar, menu will popup on right).
 
-All the tables are search-able & sort-able with responsive styles, on the small screens, you can scroll to left to see data.
+All the tables are search-able & sort-able with responsive styles, on the small screens, you can scroll right to see data and actions menu.
 
 ## Dashboard
 
-Dashboard has 7 days, monthly and yearly charts with month and year selection.
+Dashboard has last 7 days, monthly and yearly charts with month and year selection.
 
 We would like to listen your feedback to improve and make dashboard more informative.
 

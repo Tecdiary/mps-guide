@@ -2,72 +2,36 @@
 
 [[toc]]
 
-## Invoices
+## Sales
 
 Invoices pages has Date, Reference, Customer, Status, Grand total and Actions columns. You can view, email, edit and delete any invoice. The invoices table can be sorted for date and reference and searched/filtered for date, reference, customer and status. There is date range input in the table footer to get the periodic invoices.
 
 The add invoice page has the following fields
 
-1.  Date
-2.  Reference
-3.  Customer
-4.  Order Taxes
-5.  Order discount
-6.  Shipping
-7.  Order products - you can search products or scan barcode
-8.  Custom Fields
-9.  Note
-10. Draft - if invoice is still a draft
-11. Add payment for invoice
+1.  Type
+2.  Date
+3.  Reference
+4.  Customer
+5.  Order Taxes
+6.  Shipping Fee
+7.  discount
+8.  Order products - you can search products or scan barcode
+9.  Custom Fields
+10. Attachments
+11. Details
+12. Draft - if sale is still a draft
+13. Auto create payment for the sale
 
-Once you unchecked the draft invoice, the invoice will be finalized and the grand total amount will be added to the customer balance. If the add payment was checked, the payment will be added and customer will be notified about the invoice and payment request.
+Once you unchecked the draft, the sale will be finalized and the grand total amount will be added to the customer balance and sync stock (if enable in settings). If the add payment was checked, the payment will be added and customer will be notified about the invoice and payment request.
 
-## Purchases
+## Deliveries
 
-Purchases pages has Date, Reference, Vendor, Status, Grand total and Actions columns. You can view, email, edit and delete any purchase. The purchases table can be sorted for date and reference and searched/filtered for date, reference, customer and status. There is date range input in the table footer to get the periodic purchases.
+You can add delivery for any sale from sale's actions menu and those will be listed on list deliveries page. You can view & print the delivery and edit it to update the status.
 
-The add purchase page has the following fields
+## Recurring Sales
 
-1.  Date
-2.  Reference
-3.  Vendor
-4.  Order Taxes
-5.  Order discount
-6.  Shipping
-7.  Order products - you can search products or scan barcode
-8.  Custom Fields
-9.  Note
-10. Draft - if purchase is still a draft
-11. Add payment for purchase
+Recurring sales can be added for daily, weekly, monthly, quarterly, semiannually, annually, biennially and triennially. System will automatically add sale for the recurring sale once start date reached (first time) or date (if create before set) for all active recurring sales along with payment. The list recurring sales table can be sorted for date and reference and searched/filtered for date, reference, and customer.
 
-Once you unchecked the draft purchase, the purchase will be finalized and the grand total amount will be added to the vendor balance. You can add payment from vendors list as you pay to them.
-
-## Payments
-
-The payments are not attached to invoices and purchases but to customers and vendors. You can add payment from payments page or directly from `customers`/`vendors` page.
-
-## Recurring Invoices
-
-Recurring invoices are the invoice that will be automatically generated after selected repeat period. Recurring invoice form has the following fields
-
-1.  Start Date
-2.  Create before - number of day to generate invoice
-3.  Repeat - repeat period for the invoice
-    - daily
-    - weekly
-    - monthly
-    - quarterly
-    - semiannually
-    - annually
-    - biennially
-4.  Reference
-5.  Customer
-6.  Order Taxes
-7.  Order discount
-8.  Shipping
-9.  Order products - you can search products or scan barcode
-10. Custom Fields
-11. Note
-12. Active - only active recurring invoice will be generated be cron job
-
-System will generate invoice for all active recurring invoices along with payment.
+::: warning Require Cron Job
+Recurring sales require you to setup cron job to run at least once daily. You can add cron job for <br />`* * * * * cd /path/to/mps && php artisan schedule:run >> /dev/null 2>&1`
+:::
