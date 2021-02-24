@@ -2,31 +2,64 @@
 
 [[toc]]
 
-## Accounts
+## Purchases
 
-Accounting is the systematic and comprehensive recording of financial transactions pertaining to a business. Accounting also refers to the process of summarizing, analyzing and reporting these transactions to oversight agencies, regulators and tax collection entities. The financial statements that summarize a large company's operations, financial position and cash flows over a particular period are a concise summary of hundreds of thousands of financial transactions it may have entered into over this period.
+Purchases page has Date, Reference, Supplier, Draft, Paid, Void, Grand Total, Attachments, Created at, Created by, Total, Item Tax, Order Tax, discount, Shipping, Custom Fields, Details and Actions columns. You can view, add payment, view payment, email, duplicate, edit and delete any purchase. The purchases table can be sorted for date and reference and searched/filtered for date, reference, supplier and others.
 
-MPS (Modern POS Solution) keeps record of each transaction of your accounts.
+The add purchase page has the following fields
 
-The account has following fields
+1.  Date
+2.  Supplier
+3.  Reference
+4.  Order Taxes
+5.  Shipping Fee
+6.  discount
+7.  Order products - you can search products or scan barcode
+8.  Custom Fields
+9.  Attachments
+10. Details
+11. Draft - if purchase is still a draft
+12. Auto create payment for the purchase
 
-1.  **Name** - Name of the account (will be display on invoice if offline payment)
-2.  **Type** - Type of the account
-3.  **Reference** - Account number, Payment email or use it as you like (will be display on invoice if offline payment)
-4.  **Opening balance** - the opening balance of the account
-5.  **Details** - Any further details of the account (will be display on invoice if offline payment)
-6.  **Show in offline payments** - If you want to accept offline payment for this account.
-7.  Custom fields - only shown in edit form
+Once you unchecked the draft, the purchase will be finalized and the grand total amount will be added to the supplier balance and sync stock (if enable in settings). If the add payment was checked, the payment will be added and supplier will be notified about the purchase and payment request.
 
-**_You can't save custom fields data while adding the account_**, however it can be saved by editing the account. Edit form will show all the custom fields added by you for accounts.
+## Quotations
 
-## Transfers
+Quotations page has Date, Reference, Customer, Grand Total, Attachments, Created at, Created by, Total, Item Tax, Order Tax, discount, Shipping, Custom Fields, Details and Actions columns. You can view, email, create sale, edit and delete any quotation. The quotations table can be sorted for date and reference and searched/filtered for date, reference, supplier and others.
 
-The transfer of the asset/money from one account to another account.
+The add quotation page has the following fields
 
-Transfer form is quote simple with the following fields
+1.  Date
+2.  Customer
+3.  Reference
+4.  Order Taxes
+5.  Shipping Fee
+6.  discount
+7.  Order products - you can search products or scan barcode
+8.  Custom Fields
+9.  Attachments
+10. Details
 
-1.  From account - select from account, you are transferring from
-2.  To account - select to account, you are transferring to
-3.  Amount - Transfer amount
-4.  Details - details of the transfer
+You can create sale for any quotation from actions menu.
+
+## Return orders
+
+Return orders page has Date, Reference, Customer, Grand Total, Attachments, Created at, Created by, Total, Item Tax, Order Tax, discount, Shipping, Custom Fields, Details and Actions columns. You can view, email, create sale, edit and delete any return order. The return orders table can be sorted for date and reference and searched/filtered for date, reference, supplier and others.
+
+The add return order page has the following fields
+
+1.  Type
+2.  Date
+3.  Reference
+4.  Customer/Supplier
+5.  Order Taxes
+6.  Shipping Fee
+7.  discount
+8.  Order products - you can search products or scan barcode
+9.  Custom Fields
+10. Attachments
+11. Details
+12. Create payment for the order
+13. Deduct amount from cash register
+
+You can add return for any sale or purchase (select type). If selected create payment, the grand total amount will be added to the customer/supplier balance. If selected deduct amount from cash register, system will remove the amount from cash register. The stock will be automatically synchronized depending on your stock settings.

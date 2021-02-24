@@ -2,7 +2,7 @@
 
 [[toc]]
 
-## Accounts
+## Items
 
 Accounting is the systematic and comprehensive recording of financial transactions pertaining to a business. Accounting also refers to the process of summarizing, analyzing and reporting these transactions to oversight agencies, regulators and tax collection entities. The financial statements that summarize a large company's operations, financial position and cash flows over a particular period are a concise summary of hundreds of thousands of financial transactions it may have entered into over this period.
 

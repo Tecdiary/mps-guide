@@ -4,9 +4,9 @@
 
 ## Sales
 
-Invoices pages has Date, Reference, Customer, Status, Grand total and Actions columns. You can view, email, edit and delete any invoice. The invoices table can be sorted for date and reference and searched/filtered for date, reference, customer and status. There is date range input in the table footer to get the periodic invoices.
+Sales page has Date, Reference, Customer, Draft, Paid, Void, Grand Total, Attachments, Created at, Created by, Total, Item Tax, Order Tax, discount, Shipping, Custom Fields, Details and Actions columns. You can view, add payment, view payment, add delivery, view delivery, email, duplicate, edit and delete any sale. The sales table can be sorted for date and reference and searched/filtered for date, reference, customer and others.
 
-The add invoice page has the following fields
+The add sale page has the following fields
 
 1.  Type
 2.  Date
@@ -22,7 +22,7 @@ The add invoice page has the following fields
 12. Draft - if sale is still a draft
 13. Auto create payment for the sale
 
-Once you unchecked the draft, the sale will be finalized and the grand total amount will be added to the customer balance and sync stock (if enable in settings). If the add payment was checked, the payment will be added and customer will be notified about the invoice and payment request.
+Once you unchecked the draft, the sale will be finalized and the grand total amount will be added to the customer balance and sync stock (if enable in settings). If the add payment was checked, the payment will be added and customer will be notified about the new sale and payment request.
 
 ## Deliveries
 
