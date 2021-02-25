@@ -2,7 +2,7 @@
 
 
 
-### Reports
+## Reports
 
 We have tried to add extensive report but still we might have missed some. Please check the available reports and let us know if there is any thing that we can improve.
 
@@ -24,7 +24,7 @@ We have tried to add extensive report but still we might have missed some. Pleas
 
 All the reports have customization form that can be toggle from the top right of content section.
 
-### Request Report
+## Request Report
 
 If some reports are not there, please request and we will add them in future updates.
 

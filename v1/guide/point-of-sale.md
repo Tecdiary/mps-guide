@@ -2,7 +2,7 @@
 
 [[toc]]
 
-### POS Highlights
+## POS Highlights
 
 **POS Screen has many options to make the sales procedure a breeze.**
 

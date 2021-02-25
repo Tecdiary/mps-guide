@@ -2,7 +2,7 @@
 
 [[toc]]
 
-### Sales
+## Sales
 
 Sales page has Date, Reference, Customer, Draft, Paid, Void, Grand Total, Attachments, Created at, Created by, Total, Item Tax, Order Tax, discount, Shipping, Custom Fields, Details and Actions columns. You can view, add payment, view payment, add delivery, view delivery, email, duplicate, edit and delete any sale. The sales table can be sorted for date and reference and searched/filtered for date, reference, customer and others.
 
@@ -24,11 +24,11 @@ The add sale page has the following fields
 
 Once you unchecked the draft, the sale will be finalized and the grand total amount will be added to the customer balance and sync stock (if enable in settings). If the add payment was checked, the payment will be added and customer will be notified about the new sale and payment request.
 
-### Deliveries
+## Deliveries
 
 You can add delivery for any sale from sale's actions menu and those will be listed on list deliveries page. You can view & print the delivery and edit it to update the status.
 
-### Recurring Sales
+## Recurring Sales
 
 Recurring sales can be added for daily, weekly, monthly, quarterly, semiannually, annually, biennially and triennially. System will automatically add sale for the recurring sale once start date reached (first time) or date (if create before set) for all active recurring sales along with payment. The list recurring sales table can be sorted for date and reference and searched/filtered for date, reference, and customer.
 

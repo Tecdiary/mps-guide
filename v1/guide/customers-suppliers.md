@@ -2,7 +2,7 @@
 
 [[toc]]
 
-### Customers & Suppliers
+## Customers & Suppliers
 
 Customers & suppliers are quite similar, the customers are attached to sales & quotations while suppliers are attached to purchases. Customer & suppliers are essential part of any business. There are few informational fields such as
 
@@ -20,7 +20,7 @@ Customers & suppliers are quite similar, the customers are attached to sales & q
 
 The `Name` and `State` (if enabled in settings) are required. If you need to save more data for customers & suppliers, you can add custom fields for them and those will be added to forms same as added to other models.
 
-### Customers/Suppliers Transactions
+## Customers/Suppliers Transactions
 
 MPS maintain separate journal for each customer/supplier and you can view the transactions for any customer/supplier from listing page.
 

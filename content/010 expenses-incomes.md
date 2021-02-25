@@ -2,7 +2,7 @@
 
 
 
-### Expenses
+## Expenses
 
 Expenses are any costs incurred in the ordinary course of business. Business expenses are deductible and are always netted against business income.
 
@@ -34,7 +34,7 @@ Expenses have the follow field by default and
 
 **_If the user is not super admin, he will need to select user for approval of expense and that user will have alert for the expense he need to approve._**
 
-### Incomes
+## Incomes
 
 Incomes are any income realized as a result of business activity. Business income is a type of earned income and is classified as ordinary income for tax purposes.
 Sale of product and services should be added by the sales not income as these are for any other business incomes. The flow of cash or cash-equivalents received from work (wage or salary), capital (interest or profit), land (rent), investment, royalties, etc.
@@ -53,7 +53,7 @@ Incomes have the follow field by default and
 8.  **Attachments** - Details of the income
 9.  **Details** - Details of the income
 
-### Others
+## Others
 
 There is no option to attached taxes to the expenses and incomes but if it's useful for business, we will add taxes to them after your feedback.
 

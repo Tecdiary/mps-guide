@@ -37,6 +37,7 @@ mdDocs.map((f, fi) => {
       return console.log(err);
     }
     var result = data
+      // .replace(/## Step /gs, "### Step")
       .replace(/::: tip/gs, '<blockquote class="quote notice">')
       .replace(/::: warning/gs, '<blockquote class="quote warning">')
       .replace(/:::/gs, "</blockquote>")

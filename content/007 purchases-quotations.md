@@ -2,7 +2,7 @@
 
 
 
-### Purchases
+## Purchases
 
 Purchases page has Date, Reference, Supplier, Draft, Paid, Void, Grand Total, Attachments, Created at, Created by, Total, Item Tax, Order Tax, discount, Shipping, Custom Fields, Details and Actions columns. You can view, add payment, view payment, email, duplicate, edit and delete any purchase. The purchases table can be sorted for date and reference and searched/filtered for date, reference, supplier and others.
 
@@ -23,7 +23,7 @@ The add purchase page has the following fields
 
 Once you unchecked the draft, the purchase will be finalized and the grand total amount will be added to the supplier balance and sync stock (if enable in settings). If the add payment was checked, the payment will be added and supplier will be notified about the purchase and payment request.
 
-### Quotations
+## Quotations
 
 Quotations page has Date, Reference, Customer, Grand Total, Attachments, Created at, Created by, Total, Item Tax, Order Tax, discount, Shipping, Custom Fields, Details and Actions columns. You can view, email, create sale, edit and delete any quotation. The quotations table can be sorted for date and reference and searched/filtered for date, reference, supplier and others.
 
@@ -42,7 +42,7 @@ The add quotation page has the following fields
 
 You can create sale for any quotation from actions menu.
 
-### Return orders
+## Return orders
 
 Return orders page has Date, Reference, Customer, Grand Total, Attachments, Created at, Created by, Total, Item Tax, Order Tax, discount, Shipping, Custom Fields, Details and Actions columns. You can view, email, create sale, edit and delete any return order. The return orders table can be sorted for date and reference and searched/filtered for date, reference, supplier and others.
 

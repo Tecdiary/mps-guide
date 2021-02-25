@@ -1,4 +1,4 @@
-## Frequently Asked Questions
+# Frequently Asked Questions
 
 #### We have tried to list some frequently asked questions. This page will be updated time to time with new FAQs.
 

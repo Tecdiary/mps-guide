@@ -5,7 +5,8 @@
 <div class="logos">
 <img :src="$withBase('/assets/img/laravel-logo.svg')" alt="Laravel Logo" class="logo-image">
 <img :src="$withBase('/assets/img/vue-logo.svg')" alt="Vuejs Logo" class="logo-image">
-<img :src="$withBase('/assets/img/iview-logo.svg')" alt="View Design Logo" class="logo-image">
+<img :src="$withBase('/assets/img/iview-logo.png')" alt="View Design Logo" class="logo-image">
+<img :src="$withBase('/assets/img/livewire-logo.svg')" alt="View Design Logo" class="logo-image">
 <img :src="$withBase('/assets/img/nuxt-logo.svg')" alt="Nuxt Logo" class="logo-image">
 <img :src="$withBase('/assets/img/tailwind-logo.svg')" alt="Tailwind Logo" class="logo-image">
 <img :src="$withBase('/assets/img/webpack-logo.svg')" alt="Webpack Logo" class="logo-image">

@@ -5,7 +5,8 @@
 <div class="logos">
 <img src="content/img/laravel-logo.svg" alt="Laravel Logo" class="logo-image">
 <img src="content/img/vue-logo.svg" alt="Vuejs Logo" class="logo-image">
-<img src="content/img/iview-logo.svg" alt="View Design Logo" class="logo-image">
+<img src="content/img/iview-logo.png" alt="View Design Logo" class="logo-image">
+<img src="content/img/livewire-logo.svg" alt="View Design Logo" class="logo-image">
 <img src="content/img/nuxt-logo.svg" alt="Nuxt Logo" class="logo-image">
 <img src="content/img/tailwind-logo.svg" alt="Tailwind Logo" class="logo-image">
 <img src="content/img/webpack-logo.svg" alt="Webpack Logo" class="logo-image">
