@@ -35,3 +35,9 @@ Recurring sales can be added for daily, weekly, monthly, quarterly, semiannually
 ::: warning Require Cron Job
 Recurring sales require you to setup cron job to run at least once daily. You can add cron job for <br />`* * * * * cd /path/to/mps && php artisan schedule:run >> /dev/null 2>&1`
 :::
+
+####
+
+**Support**
+
+Just remember, we’re always a [question](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question) away if you need help.

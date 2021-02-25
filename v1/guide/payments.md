@@ -16,3 +16,9 @@ The add payment page has the following fields
 8.  Details
 
 The type can be customer or supplier and then choose the selected data. System will automatically credit/debit the amount to account and customer/supplier. Payment notification will be sent too.
+
+####
+
+**Support**
+
+Just remember, we’re always a [question](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question) away if you need help.

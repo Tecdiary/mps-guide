@@ -56,3 +56,9 @@ Incomes have the follow field by default and
 ## Others
 
 There is no option to attached taxes to the expenses and incomes but if it's useful for business, we will add taxes to them after your feedback.
+
+####
+
+**Support**
+
+Just remember, we’re always a [question](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question) away if you need help.

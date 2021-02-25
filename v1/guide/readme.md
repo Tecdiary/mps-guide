@@ -45,3 +45,7 @@ MPS will automatically logs all the activity in your app and you can view it und
 ## Auto Update
 
 MPS comes with auto update functionality, please enable it in system settings.
+
+## Support
+
+Just remember, we’re always a [question](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question) away if you need help.

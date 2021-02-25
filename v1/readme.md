@@ -2,6 +2,12 @@
 
 #### Modern POS Solution Documentation (version 1.0)
 
+#### Thank you for purchasing Modern Point of Sale Solution, this is beta, pre-release version.
+
+We have tested the back-end, however the front-end is not yet tested. We have released it to get valued feedback of end users, while we improving the front-end application. These is auto update feature that can be enabled/disabled in settings. It will check for update on your desired time range of selected day. We have tested the auto updater but still there could be chance of trouble. If you have any issue, please do **[ask question at support portal](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question)**.
+
+This documentation is basic guide and we will be added more sections to it time to time and keep improving these so that you don't have to wait our response but check the documentation to settle any issue or get answer to your question. We appreciate your help, support and patience, it means a lot, encourages us to keep improving the item.
+
 ## About MPS
 
 **Modern POS Solution** (**MPS**) is all in once business solution developed by **Tecdiray IT Solutions**. MPS is developed using **Vuejs** (front-end) and **Laravel** (back-end). All licenses come with source code of back-end but the front-end source code is not included in regular license. If you need to modify the item's front-end for yourself or your clients then you will need to purchase standard or extended license.

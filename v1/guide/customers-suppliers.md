@@ -23,3 +23,9 @@ The `Name` and `State` (if enabled in settings) are required. If you need to sav
 ## Customers/Suppliers Transactions
 
 MPS maintain separate journal for each customer/supplier and you can view the transactions for any customer/supplier from listing page.
+
+####
+
+**Support**
+
+Just remember, we’re always a [question](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question) away if you need help.

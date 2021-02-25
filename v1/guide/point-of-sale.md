@@ -24,3 +24,9 @@ The main features are as follows
 ### POS Design
 
 <img :src="$withBase('/assets/img/pos-design.png')" alt="POS Design" >
+
+####
+
+**Support**
+
+Just remember, we’re always a [question](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question) away if you need help.

@@ -2,31 +2,34 @@
 
 [[toc]]
 
-## Accounts
+## Reports
 
-Accounting is the systematic and comprehensive recording of financial transactions pertaining to a business. Accounting also refers to the process of summarizing, analyzing and reporting these transactions to oversight agencies, regulators and tax collection entities. The financial statements that summarize a large company's operations, financial position and cash flows over a particular period are a concise summary of hundreds of thousands of financial transactions it may have entered into over this period.
+We have tried to add extensive report but still we might have missed some. Please check the available reports and let us know if there is any thing that we can improve.
 
-MPS (Modern POS Solution) keeps record of each transaction of your accounts.
+1. Registers
+2. Expiry Alerts
+3. Quantity Alerts
+4. Items Report
+5. Top Items Report
+6. Sales Report
+7. Purchases Report
+8. Payments Report
+9. Expenses Report
+10. Incomes Report
+11. Tax Report
+12. Stock Transfers
+13. Stock Adjustments
+14. Time Clock Logs
+15. Activity Logs
 
-The account has following fields
+All the reports have customization form that can be toggle from the top right of content section.
 
-1.  **Name** - Name of the account (will be display on invoice if offline payment)
-2.  **Type** - Type of the account
-3.  **Reference** - Account number, Payment email or use it as you like (will be display on invoice if offline payment)
-4.  **Opening balance** - the opening balance of the account
-5.  **Details** - Any further details of the account (will be display on invoice if offline payment)
-6.  **Show in offline payments** - If you want to accept offline payment for this account.
-7.  Custom fields - only shown in edit form
+### Request Report
 
-**_You can't save custom fields data while adding the account_**, however it can be saved by editing the account. Edit form will show all the custom fields added by you for accounts.
+If some reports are not there, please request and we will add them in future updates.
 
-## Transfers
+####
 
-The transfer of the asset/money from one account to another account.
+**Support**
 
-Transfer form is quote simple with the following fields
-
-1.  From account - select from account, you are transferring from
-2.  To account - select to account, you are transferring to
-3.  Amount - Transfer amount
-4.  Details - details of the transfer
+Just remember, we’re always a [question](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question) away if you need help.
