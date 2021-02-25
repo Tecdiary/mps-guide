@@ -2,7 +2,7 @@
 
 [[toc]]
 
-## Reports
+### Reports
 
 We have tried to add extensive report but still we might have missed some. Please check the available reports and let us know if there is any thing that we can improve.
 

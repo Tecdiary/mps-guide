@@ -2,7 +2,7 @@
 
 [[toc]]
 
-## Account/Asset Transfers
+### Account/Asset Transfers
 
 Asset/Money transfers page has Created at, Reference, Amount, To Account, From Account, Created by, Details and Actions columns. You can edit and delete any transfer. The transfers table can be sorted for created at and reference and searched/filtered for created at, reference, account and others.
 
@@ -14,7 +14,7 @@ The account has following fields
 4.  **Amount** - Amount of the transfer
 5.  **Details** - Any further details of the transfer
 
-## Stock Transfers
+### Stock Transfers
 
 Stock/Inventory transfers page has Created at, Reference, To Location, From Location, Attachments, Created by, Details and Actions columns. You can view, edit and delete any transfer. The inventory transfers table can be sorted for created at and reference and searched/filtered for created at, reference, location and others.
 

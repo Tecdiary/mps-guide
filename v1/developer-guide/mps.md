@@ -1,8 +1,8 @@
-# MPS - Developer Guide
+## MPS - Developer Guide
 
 [[toc]]
 
-## What's MPS module
+### What's MPS module
 
 MPS stands for Modern Point of Sale Solution (admin area) for the application.
 
@@ -56,7 +56,7 @@ modules/MPS
         └── webpack.mix.js
 ```
 
-## Fiscal Services
+### Fiscal Services
 
 There is no service yet but will be added as we receive the requests. If you need to report to your local fiscal service. You can do that in the `modules/MPS/FiscalServices/SendSaleToFiscalService.php` file.
 
@@ -64,12 +64,12 @@ There is no service yet but will be added as we receive the requests. If you nee
 
 In case your fiscal service don't have documentation in English, then we won't be able to add it for you. You will need to hire any local developer to help you add the service.
 
-## Miscellaneous
+### Miscellaneous
 
 ### Imports & Exports
 
 There is no option to import/export any data yet. We will be added option in future updates.
 
-### I can't find answer in docs?
+#### I can't find answer in docs?
 
 If you can't find answer here in docs, you are suggested to ask question at support portal [https://tecdiary.net/support/modern-point-of-sale-solution](https://tecdiary.net/support/modern-point-of-sale-solution). Please be patient while accepting our response as it could take 1 - 2 working days to respond.

@@ -2,7 +2,7 @@
 
 [[toc]]
 
-## Users/Employees
+### Users/Employees
 
 Users page has Name, Username, Email, Active, Roles, Default location, allowed locations, Date of Birth, Date of Hire, Salary, Hourly Rate, Commission Rate, Commission Method, Address, Clock in option, User Permissions, If Required to change password and Actions columns. You can view time clock logs, view salaries, edit and delete any user. The users table can be sorted for name, username, email and active and searched/filtered for name, username, email and others.
 
@@ -32,13 +32,13 @@ The user form has following fields
 22. **force password change** - force user to change password on next login
 23. **can be impersonated on POS** - this user can login with QRCode on POS
 
-## User Roles
+### User Roles
 
 MPS has option to add user roles and set permissions for the roles as you like. Super admin role is not change-able. Please be very careful while setting permissions for customer and suppliers group as they are not part of the organization. You only need name to add a user role. The list user roles page has Created at, Role name and Actions menu. You can set permissions, edit and delete any role.
 
 The permissions page is quite simple with all permissions as checkboxes. You check all the required permissions for the role and save.
 
-## User Salaries
+### User Salaries
 
 Salaries page has Date, Created at, Amount, Advance, Type, Status, User, Account, Details and Actions columns. You can view, edit and delete any salary. The salaries table can be sorted for date, created at, amount, advance, type and status and searched/filtered for user, account and details.
 

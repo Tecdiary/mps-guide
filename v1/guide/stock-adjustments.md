@@ -2,7 +2,7 @@
 
 [[toc]]
 
-## Stock Adjustments
+### Stock Adjustments
 
 Stock/Inventory Adjustment is used to synchronize the stock to account for things that occur outside the normal business like theft, breakages, spillages, faulty or damaged goods, data entry error etc. Stock Adjustment functionality allows you to modify the stock of items and indicate the reason for that adjustment.
 
