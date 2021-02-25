@@ -51,9 +51,3 @@ Combo deal form has 2 steps
 Modifiers are something like add-ons to items while order. You can add modifier from main menu and then select those while adding item. Modifier can have item selection where you can add items and those will be selectable while adding the order for main item.
 
 If this part seems complex to you, let us know on support for so that we can guide. If you have better idea on handling these, please do let us know too.
-
-####
-
-**Support**
-
-Just remember, we’re always a [question](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question) away if you need help.

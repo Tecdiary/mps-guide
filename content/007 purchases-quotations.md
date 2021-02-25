@@ -63,9 +63,3 @@ The add return order page has the following fields
 13. Deduct amount from cash register
 
 You can add return for any sale or purchase (select type). If selected create payment, the grand total amount will be added to the customer/supplier balance. If selected deduct amount from cash register, system will remove the amount from cash register. The stock will be automatically synchronized depending on your stock settings.
-
-####
-
-**Support**
-
-Just remember, we’re always a [question](https://tecdiary.net/support/modern-point-of-sale-solution/ask_question) away if you need help.

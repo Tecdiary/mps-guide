@@ -69,7 +69,7 @@ We are almost done, it's time to finalize the installation. If you need some dem
 **You must press the `Finalize` installation button to complete the installation.**
 
 <blockquote class="quote warning"> Cron Job Setup
-Please setup cron job for <br />`* * * * * cd /path/to/mps && php artisan schedule:run >> /dev/null 2>&1`
+Please setup cron job for <br /><br />`* * * * * cd /path/to/mps && php artisan schedule:run >> /dev/null 2>&1`
 </blockquote>
 
 <blockquote class="quote warning"> PDF Attachment
