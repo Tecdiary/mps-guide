@@ -31,9 +31,6 @@ UploadFolder
         ├── artisan
         ├── composer.json
         ├── composer.lock
-        ├── package.json
-        ├── package-lock.json
-        └── phpunit.xml
         └── server.php
         └── webpack.mix.js
 ```
@@ -43,8 +40,6 @@ UploadFolder
 ::: warning
 **Developer License?** - If you have purchased developer license, please run install dependencies before following these steps by running `composer install`
 :::
-
----
 
 ::: warning
 **Set correct root path** - You need to set the root path for domain/subdomain to `public` directory inside MPS download/extracted files.
