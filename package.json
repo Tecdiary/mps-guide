@@ -6,7 +6,8 @@
     "dev": "npm run docs:dev",
     "build": "npm run docs:build",
     "docs:dev": "vuepress dev v1",
-    "docs:build": "vuepress build v1"
+    "docs:build": "vuepress build v1",
+    "ibis": "node ./ibis/sync.js && cd ./ibis && ibis build"
   },
   "repository": {
     "type": "git",

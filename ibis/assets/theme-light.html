@@ -1,28 +1,23 @@
 <header>
   <link
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.13.1/build/styles/sunburst.min.css"
+    href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.13.1/build/styles/github-gist.min.css"
   />
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: calibri;
       font-size: 14px;
       line-height: 1.4;
-      background-color: #011627;
-      color: #c1d4ea;
+      color: #252525;
     }
 
     h1,
     h2 {
       font-family: times;
-      color: #fff;
     }
 
     h3 {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      color: #fff;
+      font-family: calibri;
       font-weight: bold;
     }
 
@@ -63,8 +58,9 @@
 
     pre {
       line-height: 20px;
-      page-break-inside: avoid;
-      border-left: solid 5px #eabc65;
+      /* page-break-inside: avoid; */
+      border-left: solid 5px #c8c8c8;
+      background-color: #f9f9fb;
       padding-top: 15px;
       padding-bottom: 15px;
       padding-left: 20px;
@@ -72,24 +68,23 @@
     }
 
     a {
-      color: #abe9ef;
+      color: #1a1c3e;
     }
 
     pre code {
       background: none;
       font-size: 13px;
-      color: #abe9ef;
+      color: #2d2d2d;
     }
 
     code {
       font-size: 14px;
-      color: #eabc65;
+      color: #a5215d;
     }
 
     .mpdf_toc {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-      color: #c1d4ea;
+      font-family: calibri;
+      color: #252525;
     }
 
     div.mpdf_toc_level_0 {
@@ -107,27 +102,24 @@
 
     span.mpdf_toc_t_level_0,
     span.mpdf_toc_p_level_0 {
-      color: #c1d4ea;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: #252525;
+      font-family: calibri;
       font-weight: bold;
       font-style: normal;
     }
 
     span.mpdf_toc_t_level_1,
     span.mpdf_toc_p_level_1 {
-      color: #c1d4ea;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: #252525;
+      font-family: calibri;
       font-weight: normal;
       font-style: normal;
     }
 
     span.mpdf_toc_t_level_2,
     span.mpdf_toc_p_level_2 {
-      color: #c1d4ea;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      color: #252525;
+      font-family: calibri;
       font-weight: normal;
       font-style: normal;
     }
@@ -154,6 +146,8 @@
     }
 
     blockquote.quote {
+      background-color: #d1fae5;
+      border-left: solid 5px #059669;
       padding-top: 20px;
       padding-bottom: 20px;
       padding-left: 20px;
@@ -161,7 +155,12 @@
       font-style: italic;
     }
 
+    blockquote.quote strong {
+      color: #059669;
+    }
+
     blockquote.notice {
+      background-color: #f0f5ff;
       border-left: solid 5px #5b87dd;
       padding-top: 20px;
       padding-bottom: 20px;
@@ -170,10 +169,11 @@
     }
 
     blockquote.notice strong {
-      color: #5b87dd;
+      color: #255ac0;
     }
 
     blockquote.warning {
+      background-color: #ffeced;
       border-left: solid 5px #dd787d;
       padding-top: 20px;
       padding-bottom: 20px;
@@ -182,7 +182,7 @@
     }
 
     blockquote.warning strong {
-      color: #dd787d;
+      color: #c0262b;
     }
 
     table {
@@ -197,15 +197,14 @@
     }
 
     tr:nth-child(even) {
-      background-color: #113e63;
-      color: #011627;
+      background-color: #f2f2f2;
     }
 
     th {
       padding-top: 12px;
       padding-bottom: 12px;
       text-align: left;
-      background-color: #001321;
+      background-color: #525252;
       color: white;
     }
     .logos {

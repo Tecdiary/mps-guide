@@ -98,9 +98,9 @@ We have tried to make this documentation as comprehensive as we can and will kee
 
 ## Emails
 
-<blockquote class="quote warning"> Disabled on demo
-Emails are disabled on demo.
-</blockquote>
+> {notice}
+**Disabled on demo** - Emails are disabled on demo.
+
 
 System will send emails as following:
 
@@ -111,9 +111,9 @@ System will send emails as following:
 5. **Payment Created** → Customer/Supplier will be informed that payment has been created
 6. **Payment Received** → Customer will be informed that payment has been received
 
-<blockquote class="quote warning"> Require feedback
-We will add more email options as we receive feedback from you.
-</blockquote>
+> {notice}
+**Feedback Required** - We will add more email options as we receive feedback from you.
+
 
 ## Report Bug
 

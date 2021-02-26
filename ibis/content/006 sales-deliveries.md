@@ -32,9 +32,9 @@ You can add delivery for any sale from sale's actions menu and those will be lis
 
 Recurring sales can be added for daily, weekly, monthly, quarterly, semiannually, annually, biennially and triennially. System will automatically add sale for the recurring sale once start date reached (first time) or date (if create before set) for all active recurring sales along with payment. The list recurring sales table can be sorted for date and reference and searched/filtered for date, reference, and customer.
 
-<blockquote class="quote warning"> Require Cron Job
-Recurring sales require you to setup cron job to run at least once daily. You can add cron job for <br />`* * * * * cd /path/to/mps && php artisan schedule:run >> /dev/null 2>&1`
-</blockquote>
+> {notice}
+**Require Cron Job Setup** - Recurring sales require you to setup cron job to run at least once daily. You can add cron job for <br />`* * * * * cd /path/to/mps && php artisan schedule:run >> /dev/null 2>&1`
+
 
 ####
 

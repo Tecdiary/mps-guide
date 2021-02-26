@@ -2,11 +2,11 @@
 
 #### We have added the installer for easy installation experience and it can be accessed by adding `/install` at the end url.
 
-[[toc]]
 
-::: warning
+
+> {notice}
 **Installation Difficulty?** - Laravel installation might be tricky for some users. It will be fine as long as you know how to set domain/subdomain root path or have performed Laravel installation before.
-:::
+
 
 ## Step 1: Preparation
 
@@ -40,15 +40,15 @@ UploadFolder
 
 #### Open the folder in command line/terminal and run `npm install` This required nodejs to be installed on your server.
 
-::: warning
+> {notice}
 **Developer License?** - If you have purchased developer license, please run install dependencies before following these steps by running `composer install`
-:::
+
 
 ---
 
-::: warning
+> {notice}
 **Set correct root path** - You need to set the root path for domain/subdomain to `public` directory inside MPS download/extracted files.
-:::
+
 
 #### You can access the installer by added `/install` at the end of your domain i.e,
 
@@ -104,10 +104,10 @@ Please setup cron job for <br /><br />`* * * * * cd /path/to/UploadFolder && php
 
 It's okay to run the schedule every minute as it won't run if there is no task. But if you don't want then you can set to run once/twice an hour.
 
-::: warning
+> {notice}
 **PDF Attachment** - MPS used `rialto-php/puphpeteer` to generate pdf files, please install npn packages by running `npm install` or install `npm install @nesk/puphpeteer` in your main directory.
-:::
 
-::: tip
+
+> {quote}
 **Can I start again?** - Yes, if there is any issue on any step and you can't pass then you can cancel and start over again with new database or settings. If you want to use the same database, please make sure it's empty. If there are any tables, you can drop them.
-:::
+
