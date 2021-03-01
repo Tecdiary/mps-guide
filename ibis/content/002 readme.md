@@ -99,6 +99,21 @@ Please setup cron job for <br /><br />`* * * * * cd /path/to/UploadFolder && php
 
 It's okay to run the schedule every minute as it won't run if there is no task. But if you don't want then you can set to run once/twice an hour.
 
+## Step 9: Add required application data
+
+Please login to app and add following data
+
+1. Add Account
+2. Add Location
+3. Add Category
+4. Add Customer
+5. Update Settings
+   - App Settings
+   - Mail Settings
+   - Payment Settings
+   - Scale Barcode Settings
+   - Upload default application Logo
+
 > {notice}
 **PDF Attachment** - MPS used `rialto-php/puphpeteer` to generate pdf files, please install npn packages by running `npm install` or install `npm install @nesk/puphpeteer` in your main directory.
 
