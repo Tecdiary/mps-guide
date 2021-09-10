@@ -96,7 +96,12 @@ function getSidebar() {
     {
       collapsable: true,
       title: "Installation",
-      children: ["install/", "install/service"],
+      children: [
+        "install/",
+        "install/service",
+        "install/update",
+        "install/modules",
+      ],
     },
     {
       title: "Manual",
@@ -125,7 +130,11 @@ function getSidebar() {
     {
       collapsable: true,
       title: "Developer Guide",
-      children: ["developer-guide/", "developer-guide/mps"],
+      children: [
+        "developer-guide/",
+        "developer-guide/mps",
+        "developer-guide/shop",
+      ],
     },
   ];
 }

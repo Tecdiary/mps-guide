@@ -35,8 +35,6 @@ UploadFolder
         └── webpack.mix.js
 ```
 
-#### Open the folder in command line/terminal and run `npm install` This required nodejs to be installed on your server.
-
 ::: warning
 **Developer License?** - If you have purchased developer license, please run install dependencies before following these steps by running `composer install`
 :::
@@ -113,10 +111,6 @@ Please login to app and add following data
    - Payment Settings
    - Scale Barcode Settings
    - Upload default application Logo
-
-::: warning
-**PDF Attachment** - MPS used `rialto-php/puphpeteer` to generate pdf files, please install npn packages by running `npm install` or install `npm install @nesk/puphpeteer` in your main directory.
-:::
 
 ::: tip
 **Can I start again?** - Yes, if there is any issue on any step and you can't pass then you can cancel and start over again with new database or settings. If you want to use the same database, please make sure it's empty. If there are any tables, you can drop them.

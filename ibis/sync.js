@@ -7,6 +7,8 @@ const mdDocs = [
   "../v1/credit/readme.md",
   "../v1/install/readme.md",
   "../v1/install/service.md",
+  "../v1/install/update.md",
+  "../v1/install/modules.md",
   "../v1/guide/readme.md",
   "../v1/guide/point-of-sale.md",
   "../v1/guide/sales-deliveries.md",
@@ -23,6 +25,7 @@ const mdDocs = [
   "../v1/faqs/readme.md",
   "../v1/developer-guide/readme.md",
   "../v1/developer-guide/mps.md",
+  "../v1/developer-guide/shop.md",
 ];
 // fse.copySync(path.resolve(__dirname, f), dest);
 mdDocs.map((f, fi) => {
@@ -43,6 +46,8 @@ mdDocs.map((f, fi) => {
       .replace(/:::/gs, "")
       .replace(/\:src\=\"\$withBase\(\'\/assets/gs, 'src="content')
       .replace(/'\)" alt="/gs, '" alt="')
+      .replace(/## Manage Modules/, "")
+      .replace(/## Update Guide/, "")
       .replace(/\[\[toc\]\]/, "");
 
     fs.writeFile(dest, result, "utf8", function(err) {

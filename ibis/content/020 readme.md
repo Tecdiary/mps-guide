@@ -26,8 +26,8 @@ yarn                    # if you prefer yarn
 # modules script
 npm run mps:i           # to install module packages
 npm run mps:u           # to update module packages
-npm run mps:h           # to hot reload module
-npm run mps:w           # to compile & watch module
+npm run mps:h           # to hot reload module for development
+npm run mps:w           # to compile & watch module for development
 npm run mps:p           # to compile module for production
 
 # to compile all module for production & generate service worker

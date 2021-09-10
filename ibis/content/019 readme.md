@@ -32,7 +32,7 @@ Please upload the new logo from application settings.
 
 ### How can I translate into other language?
 
-Please duplicate the `modules/MPS/Resources/lang/en.json` & `modules/MPS/Resources/lang/en` and rename the `en` to your language code i.e, `es` for Spanish & `fr` for French. Lastly translate all the files to your language.
+Please duplicate the `modules/MPS/Resources/lang/en.json` & `modules/MPS/Resources/lang/en` and rename the `en` to your language code i.e, `es` for Spanish & `fr` for French. Now you can translate all the files to your language. Lastly build with `npm run mps:p`
 
 ### How can I enable Indian GST?
 
