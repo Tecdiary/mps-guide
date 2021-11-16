@@ -1,5 +1,5 @@
 module.exports = {
-  base: process.env.NODE_ENV === "production" ? "/MPS/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/mps-guide/" : "/",
   title: "MPS Guide",
   dest: "docs",
   description: "User Guide of Modern POS Solution",
@@ -45,7 +45,7 @@ module.exports = {
   theme: "reco",
   plugins: [["@vuepress/back-to-top", true], "@vuepress/nprogress"],
   themeConfig: {
-    repo: "Tecdiary/MPS",
+    repo: "Tecdiary/mps-guide",
     docsBranch: "master",
     editLinks: false,
     smoothScroll: true,

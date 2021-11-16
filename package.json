@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tecdiary/MPS.git"
+    "url": "git+https://github.com/Tecdiary/mps-guide.git"
   },
   "author": "Mian Saleem",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tecdiary/MPS/issues"
+    "url": "https://github.com/Tecdiary/mps-guide/issues"
   },
-  "homepage": "https://github.com/Tecdiary/MPS#readme",
+  "homepage": "https://github.com/Tecdiary/mps-guide#readme",
   "devDependencies": {
     "@vuepress/plugin-nprogress": "^1.7.1",
     "vuepress": "^1.7.1",
