@@ -2,11 +2,11 @@ module.exports = [
   // { text: "Home", link: "/" },
   {
     text: "Report Bug",
-    link: "https://github.com/Tecdiary/MPS/issues",
+    link: "https://github.com/Tecdiary/mps-guide/issues",
   },
   {
     text: "Request Feature",
-    link: "https://github.com/Tecdiary/MPS/discussions/new?category=ideas",
+    link: "https://github.com/Tecdiary/mps-guide/discussions/new?category=ideas",
   },
   {
     text: "Buy Now",

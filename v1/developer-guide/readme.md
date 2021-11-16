@@ -49,11 +49,11 @@ Service worker is being generated with workbox-cli and you can check the `workbo
 The front end is not api based but tradition web app and the source code can be found in `modules/moduleName/`
 
 ```text
-MPS main app file           => modules/MPS/Resources/js/app.js
-MPS main scss file          => modules/MPS/Resources/sass/app.scss
-MPS vue components folder   => modules/MPS/Resources/js/components
-MPS vuex store file         => modules/MPS/Resources/js/store/index.js
-MPS vue-router file         => modules/MPS/Resources/js/routes/index.js
+MPS main app file           => modules/mps-guide/Resources/js/app.js
+MPS main scss file          => modules/mps-guide/Resources/sass/app.scss
+MPS vue components folder   => modules/mps-guide/Resources/js/components
+MPS vuex store file         => modules/mps-guide/Resources/js/store/index.js
+MPS vue-router file         => modules/mps-guide/Resources/js/routes/index.js
 ```
 
 The above mention module MPS is used for admin area.
