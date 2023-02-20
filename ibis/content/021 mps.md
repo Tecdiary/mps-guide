@@ -58,7 +58,7 @@ modules/MPS
 
 ## Fiscal Services
 
-There is no service yet but will be added as we receive the requests. If you need to report to your local fiscal service. You can do that in the `modules/MPS/FiscalServices/SendSaleToFiscalService.php` file.
+There is no service yet but will be added as we receive the requests. If you need to report to your local fiscal service. You can do that in the `modules/mps-guide/FiscalServices/SendSaleToFiscalService.php` file.
 
 **_If you want to request us to add fiscal service, please ask question on item support with the documentation link (English version only) of your Fiscal Service._**
 

@@ -58,7 +58,6 @@ If you have purchases standard/extended license then you have all the files to m
 npm run shop:i           # to install module packages
 npm run shop:u           # to update module packages
 npm run shop:h           # to hot reload module for development
-npm run shop:w           # to compile & watch module for development
 npm run shop:p           # to compile module for production
 ```
 

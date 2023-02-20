@@ -4,7 +4,7 @@
 
 ### Please backup your files & database before starting to update.
 
-You can update the MPS settings to auto update. If you have any issue with auto update that might be due to execution time limit. Please open the MPS folder in the command line terminal and run
+You can update the MPS settings to auto update (from version 1.0.0). If you have any issue with auto update that might be due to execution time limit. Please open the MPS folder in the command line terminal and run
 
 ```bash
 php artisan mps:update --c --now

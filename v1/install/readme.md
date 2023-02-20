@@ -36,7 +36,7 @@ UploadFolder
 ```
 
 ::: warning
-**Developer License?** - If you have purchased developer license, please run install dependencies before following these steps by running `composer install`
+**Standard/Extended License?** - If you have purchased standard or extended license, please run install dependencies before following these steps by running `composer install`
 :::
 
 ::: warning

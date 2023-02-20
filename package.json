@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/Tecdiary/mps-guide#readme",
   "devDependencies": {
-    "@vuepress/plugin-nprogress": "^1.7.1",
-    "vuepress": "^1.7.1",
-    "vuepress-theme-reco": "^1.5.7"
+    "@vuepress/plugin-nprogress": "^1.9.8",
+    "vuepress": "^1.9.8",
+    "vuepress-theme-reco": "^1.6.16"
   }
 }
